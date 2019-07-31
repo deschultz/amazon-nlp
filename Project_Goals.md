@@ -2,5 +2,9 @@
 Dylan Schultz, Federico Scivittaro, Ryan Sullivan
 
 
-##END GOAL
+# Datasets
+
+# Modeling Strategy
+
+# End Goal
 The end goal of our project is to create a topic modeling algorithmn that will output more logical topics than those created by Amazon's Comprehend. 
