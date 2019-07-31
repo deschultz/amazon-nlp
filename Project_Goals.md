@@ -3,6 +3,13 @@ Dylan Schultz, Federico Scivittaro, Ryan Sullivan
 
 
 # Datasets
+- Amazon Review Polarity Datasets
+S3 Location: e15-nlp-amazon-review-polarity
+Reviews of products over an 18 year period (~35 million reviews up to March 2013).
+Includes:
+	- Negative(1)/Positive(2) Class Labels
+	- Review Title
+	- Review Text
 
 # Modeling Strategy
 We begin by taking the pre-labeled training data (see *Datasets*), which contains Amazon product reviews labeled as either positive or negative, and load them into Amazon Comprehend to produce a model that can take in future product reviews and classify them as positive or negative. Then, we qualitatively examine the results of the Comprehend modeling processes and examine the extent to which its classifications are logical.
